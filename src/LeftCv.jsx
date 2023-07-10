@@ -2,6 +2,10 @@ import React from 'react';
 import Profile from './img/My_Profile.jpg';
 import TitleBar from './TitleBar';
 import Contact from './LeftComponents/FirstLeft';
+import Language from './LeftComponents/SecondLeft';
+import Skills from './LeftComponents/ThirdLeft';
+import Certificate from './LeftComponents/FourthLeft';
+
 
 const title = {
     title1: "CONTACT ME",
@@ -23,6 +27,12 @@ const LeftCv = () => {
             <div>
                 <TitleBar title={title.title1} />
                 <Contact />
+                <TitleBar title={title.title2} />
+                <Language />
+                <TitleBar title={title.title3} />
+                <Skills />
+                <TitleBar title={title.title4} />
+                <Certificate />
             </div>
 
         </div>

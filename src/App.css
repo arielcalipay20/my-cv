@@ -60,7 +60,6 @@ body {
 }
 
 .title-bar-container {
-
   margin-top: 50px;
 }
 
@@ -108,6 +107,32 @@ body {
 
 .icon-container p {
   font-size: 14px;
+}
+
+/*Second Left Components*/
+.language-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-container p {
+  flex: 1;
+}
+
+.progress-container {
+  flex: 1;
+}
+
+/*Fourth Left Components*/
+
+.certificate-container {
+  font-size: 1.1em;
+}
+
+.certificate-container p {
+  margin-top: 30px;
 }
 
 @keyframes App-logo-spin {
