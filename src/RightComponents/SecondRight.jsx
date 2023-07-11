@@ -1,9 +1,15 @@
 import React from 'react';
 
+const info = {
+    name: 'Jade Oloroso',
+    position: 'Web Developer',
+    info: 'Phone: +639057028879',
+    info1: 'Email: jade.delima.oloroso@gmail.com'
+}
 const Reference = () => {
     return (
         <>
-            <SecondRightComponent name={'Jade Oloroso'} position={'Web Developer'} info={'Phone: +639057028879'} info1={'Email: jade.delima.oloroso@gmail.com'} />
+            <SecondRightComponent name={info.name} position={info.position} info={info.info} info1={info.info1} />
         </>
     );
 }
