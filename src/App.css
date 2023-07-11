@@ -135,6 +135,92 @@ body {
   margin-top: 30px;
 }
 
+/*Right Container Styling*/
+.right-main-container {
+  padding: 50px 5%;
+}
+
+.right-text-container {
+  font-size: 5.25em;
+  line-height: 20px;
+  letter-spacing: 10px;
+  color: rgb(63, 63, 63);
+  /* margin-left: -10px; */
+}
+
+.right-text-container1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  color: black;
+  /* margin-left: -5px; */
+  margin-top: -40px;
+}
+
+/*First Right Component*/
+.first-right-component {
+  margin: 45px 0;
+  color: rgb(63, 63, 63);
+}
+
+.first-right-component h2,
+h3 {
+  line-height: 10px;
+}
+
+.first-right-component p {
+  font-size: 1.05em;
+}
+
+/*Second Right Component*/
+.second-right-component {
+  margin-top: 40px;
+}
+
+.second-right-component1 {
+  line-height: 10px;
+}
+
+.second-right-component1 p {
+  font-size: 1.15em;
+}
+
+.second-right-component2 {
+  margin-top: 30px;
+
+}
+
+.second-right-component2 p {
+  font-size: 0.9em;
+  line-height: 1px;
+}
+
+/*Flexibility Style*/
+@media screen and (max-width: 760px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .right-text-container {
+    font-size: 3.25em;
+  }
+
+  .right-text-container1 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .right-text-container {
+    font-size: 2.25em;
+  }
+
+  .right-text-container1 {
+    font-size: 1em;
+  }
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
